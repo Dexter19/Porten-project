@@ -29,3 +29,65 @@ font-family: 'PT Sans', sans-serif;
 .contacts {
     display: flex;
 }
+.tel_number {
+    position: relative;
+    padding-left: 25px;
+}
+.tel_number::before {
+    background: url(../img/eva_phone-outline.png) 0 0 no-repeat;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+}
+.work_time {
+    position: relative;
+    padding-left: 25px;
+}
+.work_time::before {
+    position: absolute;
+    left: 14px;
+    top: 2px;
+    content: "";
+    width: 1px;
+    height: 11px;
+    background-color: #969696;
+}
+.time {
+    position: relative;
+    padding-left: 25px;
+}
+.time::before {
+    position: absolute;
+    left: 14px;
+    top: 2px;
+    content: "";
+    width: 1px;
+    height: 11px;
+    background-color: #969696;
+}
+.regitration_link {
+    text-decoration: none;
+    color: #969696;
+}
+.regitration_link {
+    position: relative;
+    padding-left: 20px;
+}
+.regitration_link::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: url(../img/ic_sharp-log-in.png) 0 0 no-repeat;
+    width: 14px;
+    height: 14px;
+}
+
+/*Logo - Menu*/
+.header_menu {
+    background-color: #0F0F0F;
+    padding: 25px 0;
+}
