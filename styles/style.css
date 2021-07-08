@@ -181,12 +181,67 @@ img.center_block_img {
 .section_2_second {
     max-width: 880px;
     width: 100%;
-    height: 200px;
-    background-color:blue;
+    background: url(../img/rectangle.jpg) 0 0 no-repeat;
+}
+.section_2_second {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 .section_2_decorline {
     max-width: 120px;
     height: 1px;
     background-color:#fff;
     margin: 45px auto;
+}
+.product_block {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 66px;
+}
+.product-card {
+    text-decoration: none;
+}
+.card_row {
+    background-color: #191B1C;
+    padding: 56px 25px;
+}
+.product_card_name {
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #fff;
+    padding: 30px 0 15px 0;
+}
+.product_card_price {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: gray;
+}
+.second_title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+.section_2_button {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 120px;
+    height: 40px;
+    margin: 35px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    transition: all .3s ease;
+}
+.section_2_button:hover {
+    color: rgb(174, 189, 174);
+    border: 2px solid rgb(174, 189, 174);
 }
