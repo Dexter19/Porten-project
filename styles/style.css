@@ -328,3 +328,25 @@ a.product-card {
 .product-card_padding {
     padding-bottom: 70px;
 }
+
+/*Section 4 End*/
+
+/*Section 5*/
+
+.section_5 {
+    background-color: #000;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.section_5_title {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.brends_block {
+    display: flex;
+    justify-content: space-between;
+}
