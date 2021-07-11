@@ -195,6 +195,10 @@ img.center_block_img {
     background-color:#fff;
     margin: 45px auto;
 }
+a.product-card {
+    max-width: 280px;
+    display: block;
+}
 .product_block {
     display: flex;
     justify-content: space-evenly;
@@ -296,4 +300,31 @@ img.center_block_img {
 .section_3_button:hover {
     color: rgb(174, 189, 174);
     border: 2px solid rgb(174, 189, 174);
+}
+
+/*Section 3 End*/
+
+/*Section 4 Start*/
+
+.section_4 {
+    background-color: #000;
+    padding-top: 130px;
+    padding-bottom: 100px
+}
+.section_4_title {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_card_block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.product-card_padding {
+    padding-bottom: 70px;
 }
