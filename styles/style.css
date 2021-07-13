@@ -166,8 +166,7 @@ img.center_block_img {
     display: flex;
 }
 .section_2_first {
-    max-width: 1040px;
-    width: 100%;
+    width: 62%;
     background-color:#000;
 }
 .first_title {
@@ -179,9 +178,9 @@ img.center_block_img {
     padding-top: 105px;
 }
 .section_2_second {
-    max-width: 880px;
-    width: 100%;
+    width: 38%;
     background: url(../img/rectangle.jpg) 0 0 no-repeat;
+    background-size: cover;
 }
 .section_2_second {
     display: flex;
@@ -256,10 +255,13 @@ a.product-card {
 .section_3 {
     display: flex;
 }
-
+.section_3_first {
+    background: url(../img/rectangle2.jpg) 0 0 no-repeat;
+    width: 62%;
+    background-size: cover;
+}
 .section_3_second {
-    max-width: 1140px;
-    width: 100%;
+    width: 38%;
     background-color: #000;
     padding-top: 112px;
     padding-bottom: 100px;
