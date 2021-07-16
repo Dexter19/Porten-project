@@ -109,13 +109,54 @@ body {
   }
   /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #0F0F0F;
     margin: 15% auto; 
     padding: 20px;
     border: 1px solid #888;
     width: 30%;
     position: relative;
   }
+  .modal-content-raw {
+      display: flex;
+      flex-direction: column;
+  }
+.modal_title {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    margin: 0 0 25px 0;
+}
+input.login,.password {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 0 25px 0;
+    outline: none;
+}
+button.logIn {
+    width: 28%;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 22px;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+button.logIn:hover {
+    background-color: rgb(49, 46, 46);
+    color: #fff;
+}
+.modal_footer_link {
+    text-decoration: none;
+    color: lightgray;
+    transition: all .3s ease;
+}
+.modal_footer_link:hover {
+    color: peru;
+}
 /* The Close Button */
 .close {
     color: #aaa;
@@ -125,11 +166,11 @@ body {
     position: absolute;
     top: -3px;
     right: 10px;
+    transition: all .3s ease;
   }
-  
   .close:hover,
   .close:focus {
-    color: black;
+    color: lightgray;
     text-decoration: none;
     cursor: pointer;
   }
@@ -459,6 +500,8 @@ a.category {
     background-color: lightgray;
     opacity: .4;
     border: none;
+    outline: none;
+    outline-offset: 0;
 }
 .button_style {
     padding: 11px 15px;
