@@ -94,7 +94,6 @@ body {
     width: 14px;
     height: 14px;
 }
-
 .modal {
     display: none;
     position: fixed;
@@ -133,8 +132,13 @@ input.login,.password {
     margin: 0 0 25px 0;
     outline: none;
 }
+input.login:focus::-webkit-input-placeholder {
+    color:transparent;
+}
+input.password:focus::-webkit-input-placeholder {
+    color:transparent;
+}
 button.logIn {
-    width: 28%;
     margin: 0 auto;
     padding: 12px;
     border-radius: 22px;
@@ -153,6 +157,9 @@ button.logIn:hover {
     text-decoration: none;
     color: lightgray;
     transition: all .3s ease;
+}
+.modal_footer {
+    margin-top: 25px;
 }
 .modal_footer_link:hover {
     color: peru;
@@ -478,6 +485,10 @@ a.category {
     font-size: 14px;
     font-family: 'PT Sans', sans-serif;
     margin: 10px 5px;
+    transition: all .3s ease;
+}
+a.category:hover {
+    background-color: rgb(63, 61, 61);
 }
 .footer_block_2 {
     margin: 0 0 0 40px;

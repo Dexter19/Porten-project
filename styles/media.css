@@ -1,0 +1,66 @@
+/*Start media-query*/
+
+@media screen and (max-width: 1124px) {
+    .container {
+        padding: 0 20px;
+    }
+    .card_row {
+        padding: 30px 0px;
+    }
+    .product_block {
+        padding-bottom: 50px;
+    }
+    .first_title {
+        padding-top: 50px;
+    }
+    .section_3_first {
+        background: url(../img/rectangle2.jpg) top center no-repeat;
+        width: 62%;
+        background-size: cover;
+    }
+    .section3_second_text {
+        padding: 0 15px;
+    }
+    .section_6 {
+        padding-bottom: 119px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    a.product-card {
+        max-width: 191px;
+        display: block;
+    }
+    img.card_img {
+        max-width: 100%;
+    }
+    img {
+        max-width: 100%;
+    }
+    .second_title {
+        font-size: 30px;
+    }
+    .product_card_name {
+        font-size: 16px;
+    }
+    .section_6 {
+        padding-bottom: 80px;
+    }
+    .section_4 {
+        padding-top: 90px;
+        padding-bottom: 25px;
+    }
+    .button_style {
+        padding: 13px 6px;
+        font-size: 11px;
+    }
+    .section_3_second {
+        padding-bottom: 16px;
+    }
+    .section_3_second {
+        padding-top: 35px;
+    }
+    .section3_second_text {
+        margin-bottom: 35px;
+    }
+}
