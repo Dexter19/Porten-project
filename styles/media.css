@@ -113,7 +113,7 @@
         position: absolute;
         top: 85px;
         left: 0;
-        background-color: #44403c;
+        background-color: #21201f;
         width: 50%;
         text-align: center;
         height: 100vh;
@@ -192,10 +192,10 @@
         padding: 25px 40px;
     }
     .section_1_text {
-        max-width: 535px;
+        max-width: 440px;
         margin: 0 auto;
         height: auto;
-        font-size: 16px;
+        font-size: 12px;
         font-family: 'PT Sans', sans-serif;
         text-align: center;
         color: #fff;
@@ -204,5 +204,15 @@
         margin-top: 0px;
         line-height: 150%;
         padding-bottom: 30px;
+    }
+    a.product-card {
+        max-width: 135px;
+    }
+    .section_3_button {
+        width: 200px;
+        font-size: 14px;
+    }
+    .product-card:last-child {
+        display: none;
     }
 }
